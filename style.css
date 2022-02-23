@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", "Courier", sans-serif;
+  
+}
+
+html {
+  font-size: 10px;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 16px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: linear-gradient(45deg, #433CA0, #4EBFC8);
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center h1{
+    font-size: 9.3rem;
+    color: white;
+    line-height: 6rem;
+    margin-top: .75rem;
+    text-align: center;
+}
+
+.center h3{
+    color: white;
+    text-align: center;
+    font-size: 2.8rem;
+    
+}
+
+.ceros{
+    width: 20rem;
+    height: 10rem;
+    position: relative;
+    
+    
+}
+
+.numero02{
+    position: absolute;
+    margin-right: 0;
+    height: 10rem;
+    width: 10rem;
+    border: 2.28rem solid rgb(255, 255, 255);
+    border-radius: 50%;
+    right: -1.8rem;
+    
+}
+
+.numero01{
+    position: absolute;
+    margin-right: 0;
+    height: 10rem;
+    width: 10rem;
+    border: 2.28rem solid rgb(255, 255, 255);
+    border-radius: 50%;
+    right: 6.5rem;
+    z-index: 20;
+    box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.25);
+
+}
+
+.numero1{
+    height: 10rem;
+    background-color: white;
+    width: 2.5rem;
+    position: absolute;
+    left: 1.3rem;
+    top: -.3rem;
+    z-index: 30;
+    box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.25);
+    border-radius: .5rem;
+}
+
+.diagonal{
+    background-color: white;
+    height: 2.5rem;
+    position: absolute;
+    width: 4rem;
+    left: -1.5rem;
+    rotate: 145deg;
+    top: .80rem;
+    
+}
